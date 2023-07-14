@@ -18,4 +18,4 @@ const MeInfoPage = () => {
     );
 }
 
-export default MeInfoPage
+export default MeInfoPage;
