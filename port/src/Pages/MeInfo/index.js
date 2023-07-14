@@ -7,9 +7,11 @@ const MeInfoPage = () => {
     return (
         <>
             <Container>
+            <div style={{ textAlign: 'center' }}>
             <h1> <img src= {ProfShot} alt="placeholder" width={150}/> </h1>
             <h1> About me</h1>
             <h2> Hi, I am Drew Senour and I am an up and coming fullstack developer! After taking a bootcamp in though Penn in March of 2023, I have been getting my feet wet with multiple languages and technologies to see what I can create!</h2>
+           </div>
             </Container>
             
         </>

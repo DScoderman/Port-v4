@@ -123,7 +123,7 @@ const ResumeList = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            marginBottom: '20px',
+            marginBottom: '50px',
             alignContent: "center",
             justifyContent: 'center',
           }}

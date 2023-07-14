@@ -1,13 +1,80 @@
-body {
+
+header { 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #264653
+
+}
+header nav {
+font-size: 25px;
+display: flex;
+flex-direction: row;
+
+}
+
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+background-color: #2A9D8F
+
+}
+body img {
+display: flex;
+ justify-content: center;
+}
+body h1 {
+display: flex;
+justify-content: center;
+}
+
+body section {
+display: flex;
+align-content: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+ProjectCardComponent {
+margin: 15;
+
+}
+a{
+color: white 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: navy;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.footerIcons a {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcons a svg {
+  width: 50px; /* adjust the width to your desired size */
+  height: 50px; /* adjust the height to your desired size */
 }
