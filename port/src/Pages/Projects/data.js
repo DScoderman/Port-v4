@@ -21,6 +21,6 @@ export const projectData = [
    new Project(image2,"LFG Forum", "The staples for an online forum in finding people to game with", "https://obscure-dusk-92996.herokuapp.com/login", "https://github.com/DScoderman/lfg-gameboard-Fork"),
    new Project(image3,"Password Generator", "Generating a password based on prompted inputs from user", "https://dscoderman.github.io/Password-Generator-V2/", "https://github.com/DScoderman/Password-Generator-V2"),
    new Project(image4,"E-commerce Database", "A backend system for connecting various retail goods in a database", "https://github.com/DScoderman/E-Commerce-Database", "https://github.com/DScoderman/E-Commerce-Database"),
-   new Project(image5,"Text Browser Editor", "A progressive web app for downloading Javascript as a text editor", "https://young-dusk-78061.herokuapp.com/", "www.github.com/DScoderman"),
-   new Project(image6,"Code Quiz", "A quiz made in Javascript to help users learn CS material", "www.codequiz.com", "www.github.com/DScoderman"),
+   new Project(image5,"Text Browser Editor", "A progressive web app for downloading Javascript as a text editor", "https://young-dusk-78061.herokuapp.com/", "https://github.com/DScoderman/Text-browser-editor"),
+   new Project(image6,"Code Quiz", "A quiz made in Javascript to help users learn CS material", "www.codequiz.com", "https://github.com/DScoderman/Javascript-Quiz-App"),
 ]
